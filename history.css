@@ -2,9 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Hind Mysuru", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 body{
   width: 100vw;
@@ -14,7 +11,6 @@ body{
 }
   canvas{
       display: block;
-      /* background-color: #000; */
   }
   #matrix {
     position: fixed;
@@ -23,15 +19,14 @@ body{
     z-index: -1;
     width: 100%;
     height: 100%;
-    /* background-image: url('matrix_background.jpg');استبدل 'matrix_background.jpg' بمسار الصورة الخاصة بخلفية الماتريكس */
     background-size: cover;
+    /* background-color: #ff0000; */
   }
 
   .text{
     width: 100vw; 
     height: 100vh; 
-    padding-bottom: 50vh; 
-    padding-top: 30vh;
+    padding-bottom: 100px;
     text-align: center; 
     display: flex;
     align-items: center;
@@ -39,27 +34,33 @@ body{
     flex-wrap: wrap;
   }
   .text h1{
-    font-size: 40px; 
-    color: #61adff;
+    font-size: 80px; 
+    color: #90b0bd;
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* background-color: #6b6b6b80; */
+    padding: 60px 100px 60px 100px;
+    border-radius: 40px;
+    /* border: #3bc7d3 solid 15px; */
+    border: #00000000 solid 15px;
+    border-bottom: #3bc7d3 solid 10px;
+    border-top: #3bc7d3 solid 10px;
+    background: linear-gradient(to top, #2b454d, rgba(136, 136, 136, 0));
   }
-  .text h3{
-    padding-left: 20vw;
-    padding-right: 20vw;
-    color: rgb(183, 223, 255);
-  }
-  span{
-    font-size: 25px; 
-    font-weight: 550; 
-    margin-top: 10px;
-    margin-left: 10px; 
-    margin-right: 10px;
-  }
-  hr{
-    border: #61adff solid 1px;
-  }
-  @media (max-width:1000px) {
-    .text h3{
-      padding-left: 5vw;
-      padding-right: 5vw;
-    }
+  .span10{
+    /* background-color: #ff0000; */
+    border: #ff000000 solid 5px;
+    border-bottom: #3bc7d3  solid 8px;
+    border-radius: 100px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color: #3bc7d3 ;
+    /* color: rgb(0, 0, 0); */
   }

@@ -8,20 +8,13 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Courgette&family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+
   </head>
 <body>
 
   <div class="text">
-    <h1 class="name">Dev<span> \--_--/ </span>Talaat Gamal</h1>
-    <h3>Если вам понравился этот сайт, я могу создать для вас индивидуальный сайт по доступной цене, просто свяжитесь со мной.</h3>
-    <br>
-    <hr style="width: 80vw;">
-    <hr style="width: 80vw;">
-    <hr style="width: 80vw;">
-    <br>
-    <h3>If you like this site, I can create a customized site for you at an affordable price, just contact me.</h3>
+    <h1 class="name">Tal<span class="span10">aa</span>t Gamal</h1>
   </div>
 
 
@@ -42,7 +35,7 @@
             }
 
             // Characters to be displayed in the matrix
-            var characters = '#$%&@*';
+            var characters = '1234567890qazwsxedcrfvtgbyhnujmikolp';
 
             // Array to store column positions
             var columns = [];
@@ -63,7 +56,7 @@
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
                 // Text color
-                ctx.fillStyle = ' rgb(0, 204, 255)';
+                ctx.fillStyle = '#43b1b8';
 
                 // Font style and size
                 ctx.font = '15px Arial';
@@ -85,7 +78,7 @@
                 }
 
                 // Delay before next frame
-                setTimeout(draw, 60); // Change the number here to increase or decrease speed
+                setTimeout(draw, 30); // Change the number here to increase or decrease speed
             }
 
             // Set canvas dimensions and columns initially
