@@ -41,13 +41,13 @@ body{
     font-weight: 500;
     font-style: normal;
     /* background-color: #6b6b6b80; */
-    padding: 60px 100px 60px 100px;
+    /* padding: 60px 100px 60px 100px; */
     border-radius: 40px;
     /* border: #3bc7d3 solid 15px; */
-    border: #00000000 solid 15px;
+    /* border: #00000000 solid 15px;
     border-bottom: #3bc7d3 solid 10px;
-    border-top: #3bc7d3 solid 10px;
-    background: linear-gradient(to top, #2b454d, rgba(136, 136, 136, 0));
+    border-top: #3bc7d3 solid 10px; */
+    /* background: linear-gradient(to top, #376b7b, rgba(136, 136, 136, 0)); */
   }
   .span10{
     /* background-color: #ff0000; */
